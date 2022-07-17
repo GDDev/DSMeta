@@ -1,23 +1,3 @@
-/* IMPORTS */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-
-/* ALL */
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-}
-
-body{
-    height: 100vh;
-    width: 100vw;
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-}
-
 /* NAVBAR */
 header{
     width: 100%;
@@ -45,12 +25,6 @@ header{
 .dsmeta-logo-container .nav-dev{
     font-weight: 300;
     font-size: 14px;
-}
-
-a, a:hover, a:visited{
-    color: unset;
-    text-decoration: none;
-    cursor: pointer;
 }
 
 #logo{
